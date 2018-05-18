@@ -3,6 +3,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
 .topnav {
     background-color: #003B46;
     overflow: hidden;
@@ -152,6 +157,7 @@ body {
 }
 
 .contact-paragraph {
+    justify-content: center;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -190,13 +196,16 @@ s .c-paragraph {
 }
 
 .input--single {
+    width: 40%;
+    margin: auto;
     height: 50px;
     font-family: inherit;
     font-size: inherit;
 }
 
 .input--textarea {
-    width: 50%;
+    flex-grow: 2;
+    width: 82%;
     height: 160px;
     padding-top: 15px;
     resize: none;
