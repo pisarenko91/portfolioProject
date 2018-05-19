@@ -157,19 +157,16 @@ body {
 }
 
 .contact-paragraph {
-    justify-content: center;
+    align-content: center;
     display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
+    flex-wrap: wrap;
     text-align: center;
-    max-width: 90%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding: 30px;
     border-radius: 5px;
     background-color: #003B46;
     color: white;
-    margin-top: 20px;
+    margin-top: 5px;
     border-style: solid;
     border-color: #07575B;
 }
@@ -182,7 +179,7 @@ body {
     text-align: center;
 }
 
-s .c-paragraph {
+.c-paragraph {
     text-align: center;
 }
 
@@ -196,26 +193,21 @@ s .c-paragraph {
 }
 
 .input--single {
-    width: 40%;
+    width: 50%;
+    height: 3em;
     margin: auto;
-    height: 50px;
-    font-family: inherit;
-    font-size: inherit;
 }
 
 .input--textarea {
-    flex-grow: 2;
-    width: 82%;
+    width: 100%;
     height: 160px;
     padding-top: 15px;
-    resize: none;
-    font-family: inherit;
-    font-size: inherit;
+    margin-top: 5px;
 }
 
 .form__btn {
     text-align: center;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 40px;
     margin: 0;
 }
 
@@ -234,4 +226,9 @@ s .c-paragraph {
 
 .footer-link {
     color: #003B46;
+}
+
+.contactWrapper {
+    width: 60%;
+    margin: 0 auto;
 }
