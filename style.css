@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #C4DFE6;
     font-family: 'Roboto', sans-serif;
@@ -82,7 +88,7 @@ body {
 }
 
 .li {
-    display: inline;
+    /*display: inline;*/
 }
 
 .fa:hover {
@@ -157,11 +163,8 @@ body {
 }
 
 .contact-paragraph {
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     padding: 30px;
     border-radius: 5px;
     background-color: #003B46;
@@ -193,13 +196,11 @@ body {
 }
 
 .input--single {
-    width: 50%;
     height: 3em;
     margin: auto;
 }
 
 .input--textarea {
-    width: 100%;
     height: 160px;
     padding-top: 15px;
     margin-top: 5px;
@@ -229,6 +230,24 @@ body {
 }
 
 .contactWrapper {
+    /*width: 50%;*/
+    margin: 0 auto;
+}
+
+.formWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
     width: 60%;
     margin: 0 auto;
+}
+
+.upperItems {
+    display: flex;
+    margin: auto;
 }
